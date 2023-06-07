@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+
+
+body{
+    background-color: #c79a8f;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+header{
+    background-color: #c79a8f;
+    width: 100%;
+    
+}
+
+
+.container02{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo,.sociai5{
+    width: 35%;
+}
+
+.logo img{
+    width: 70px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu li a{
+    text-decoration: none;
+    position: relative;
+    color: white;
+}
+
+.menu li a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image:linear-gradient(45deg, #6b63fff1, #6b63fff1);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu li a:hover::after{
+    width: 40px;
+}
+
+.sociai5 a{
+    width: 5%;
+    height: 5%;
+    padding: 10px;
+    background-image: linear-gradient(45deg, #928df8f2, #6b63fff1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 20px;
+}
+
+.sociai5 a i{
+    font-size: 19px;
+    color: white;
+}
+
+
+.container{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.avaliacao{
+    display: flex;
+   }
+  .star-icon{
+    list-style-type: none;
+    color: #ffe500;
+    font-size: 50px;/* alterar o tamanho das estrelas */
+  }
+  .star-icon::before{
+    content: "\2605";
+  }
+
+
+
+
+#minecraft{
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    
+}
+
+#minecraft img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.ekko img{
+    width: 40px;
+    margin: 10px;
+    transition: transform .2s;
+}
+
+.ekko img:hover{
+    transform: scale(1.10);
+}
+
+.descricao h3,p{
+    margin: 12px;
+}
+
+
+
+
+.carousel {
+    overflow: hidden;
+    max-width: 600px;
+    position: relative;
+    display: flex;
+}
+
+.KATON{
+    margin-left: 300px;
+    display: flex;
+}
+
+.itachi{
+    padding: 20px;
+    margin: 1px;
+}
+
+.Deidara{
+    padding: 20px;
+    margin: 1px;
+}
+
+
+
+
+.garou{
+    background-color: #7778cf;
+    margin-top: 80px;
+}
+  

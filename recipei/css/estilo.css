@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+header{
+    background-color: #c79a8f;
+    width: 100%;
+}
+
+.logo,.sociai5{
+    width: 35%;
+}
+
+.logo img{
+    width: 70px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu li a{
+    text-decoration: none;
+    position: relative;
+}
+
+.menu li a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image:linear-gradient(45deg, #6b63fff1, #6b63fff1);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu li a:hover::after{
+    width: 40px;
+}
+
+.sociai5 a{
+    width: 5%;
+    height: 5%;
+    padding: 10px;
+    background-image: linear-gradient(45deg, #928df8f2, #6b63fff1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin: 20px;
+}
+
+.sociai5 a i{
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#zed a svg{
+    display: flex;
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+    
+}
+
+
+
+#madara ul{
+    display: flex;
+    width: 60%;
+    gap: 50px;
+    margin: auto;
+}
+
+#madara ul li {
+    list-style: none;
+}
+
+
+#caixa-1{
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+#caixa-1:hover{
+    transform: scale(1.01);
+}
+
+#caixa-2{
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+}
+
+#caixa-2:hover{
+    transform: scale(1.09);
+}
+
+.garou{
+    background-color: #7778cf;
+    margin-top: 80px;
+}
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #1e71be 29%,
+    #2edd16 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 60px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@media (max-width:600px) {
+    #madara ul{
+    flex-wrap: wrap;
+    }
+}
